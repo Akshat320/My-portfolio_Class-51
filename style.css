@@ -1,0 +1,83 @@
+ h1{
+   display:flex;
+   justify-content: center;
+  color:rgb(221, 25, 25);
+  font-size: 50px;
+  font-weight: 1000;
+  font-style: italic;
+
+
+}
+p{
+  color: #ff0000; 
+  font-size: 250%;
+
+  }
+  h4{
+    color: #aa90ec;
+    font-size: 30px;
+    margin:20px;
+
+
+    }
+    h3{
+  color: #fe9055;
+ 
+
+}
+h2{
+  display:flex;
+  justify-content: center;
+  color: #0000ff;
+  font-size: 40px;
+  font-style: oblique;
+
+ 
+}
+/*{
+    border: solid;
+}
+*/
+.header{
+
+  display: flex;
+  justify-content: flex-end;
+  font-size: 30px;
+  flex-direction: column;
+
+}
+.bars{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 30px;  
+}
+.grid{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+
+p,h2,h4,h3{
+    text-align: left;
+}
+body{
+  background-image: url("AKSHAT3.jpeg");
+
+  border-bottom: 5px dotted #0000ff;
+  border-top: 5px dotted #0000ff;
+  border-left: 5px solid #0000ff;
+  border-right: 5px solid #0000ff;
+  padding: 40px;
+}
+.menu{
+  display:flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+  
+}
